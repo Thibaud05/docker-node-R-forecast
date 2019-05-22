@@ -6,4 +6,4 @@ RUN apt-get update
 RUN apt install r-base -y --allow-unauthenticated
 
 # install forecast library
-RUN Rscript app/Rscripts/install.R
+RUN Rscript install.R
